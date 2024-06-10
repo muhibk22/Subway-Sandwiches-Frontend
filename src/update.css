@@ -1,0 +1,66 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .text {
+    color: #333;
+  }
+  
+  .search-section,
+  .update-section {
+    margin: auto;
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .message {
+    color: green;
+  }
+  
+  pre {
+    text-align: left;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  

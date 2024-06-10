@@ -1,0 +1,150 @@
+
+@media (max-width: 768px){
+    .menu{
+        flex-direction: column;
+    }
+    .menu-category {
+        width: 80vw !important;
+    }
+    .menu-item img {
+        width: 80vw !important;
+    }
+    .menu-item{
+        width: 80vw !important;
+    }
+    button{
+        width: 20vw !important;
+    }
+}
+
+@media (max-width: 476px){
+    .menu-item img{
+        height: 20vh !important;
+    }
+    button{
+        width: 30vw !important;
+    }
+}
+.order-page {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.heading {
+    margin: 10px 0 40px 0;
+    text-align: center;
+}
+
+.menu-category {
+    width: 40vw;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+    width: 40vw;
+}
+
+.menu-item img {
+    width: 40vw;
+    height: 40vh;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.item-details {
+    text-align: center;
+}
+
+.item-details p {
+    margin: 5px 0;
+}
+
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 0;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.15s;
+    width: 10vw;
+}
+.order-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+button:hover {
+    background-color: rgb(0, 79, 4);
+}
+
+.order-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 400px;
+    height: 95%;
+    border-radius: 10px;
+}
+
+.order-form h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.order-form input {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.order-form button:hover {
+    background-color: #218838;
+}

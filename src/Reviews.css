@@ -1,0 +1,96 @@
+.reviews-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .review-box {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./components/cookie.webp);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .feedback-form,
+  .review-form{
+    background:rgb(241, 241, 241);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0px 1px 10px black;
+
+  }
+  .review-box h2, .review-form h2, .feedback-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .review-box p {
+    font-size: 18px;
+  }
+  
+  .review-box button, .review-form button, .feedback-form button {
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  
+  .review-form input, .review-form textarea, .feedback-form input, .feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .review-form input[type="text"],
+.review-form input[type="date"],
+.review-form input[type="number"],
+.review-form textarea,
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form input[type="tel"],
+.feedback-form input[type="date"],
+.feedback-form textarea {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+  .review-form button, .feedback-form button {
+    padding: 10px 20px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .review-form p, .feedback-form p {
+    margin-top: 10px;
+    color: green;
+  }
+  
